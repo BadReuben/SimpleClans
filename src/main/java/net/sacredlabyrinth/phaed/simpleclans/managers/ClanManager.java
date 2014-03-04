@@ -640,7 +640,7 @@ public final class ClanManager
     {
         double out = 0;
 
-        int count = getItemCount(inv.all(320)); // cooked porkchop
+        int count = getItemCount(inv.all(Material.GRILLED_PORK)); // cooked porkchop
 
         if (count > 0)
         {
@@ -710,14 +710,14 @@ public final class ClanManager
             out += count * 2;
         }
 
-        count = getItemCount(inv.all(364));  // steak
+        count = getItemCount(inv.all(Material.COOKED_BEEF));  // steak
 
         if (count > 0)
         {
             out += count * 4;
         }
 
-        count = getItemCount(inv.all(319)); // raw porkchop
+        count = getItemCount(inv.all(Material.PORK)); // raw porkchop
 
         if (count > 0)
         {
@@ -745,7 +745,7 @@ public final class ClanManager
             out += count * 2;
         }
 
-        count = getItemCount(inv.all(360));  // melon slice
+        count = getItemCount(inv.all(Material.MELON));  // melon slice
 
         if (count > 0)
         {
